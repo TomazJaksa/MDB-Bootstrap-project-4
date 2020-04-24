@@ -1,0 +1,200 @@
+/* Only for snippet */
+.double-nav .breadcrumb-dn {
+  color: #fff;
+}
+.button-collapse i {
+  color: #fff
+}
+
+#sider {
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: -52.5em;
+  background-color: #ccc;
+  overflow-x: hidden;
+  transition: 0.7s;
+}
+
+#sider a:hover {
+  color: #f1f1f1;
+}
+
+#sider .closebtn {
+  position: absolute;
+  top: -0.2em;
+  right:0.4em;
+  font-size: 40px;
+  color: #212121;
+}
+
+#innerUl li a {
+  padding: 5px;
+  color: white;
+  width: 50em;
+}
+
+#innerUl li a:hover {
+  background-color: black;
+}
+
+.myInput::placeholder {
+  color: white;
+  opacity: 1;
+}
+.bg {
+  /* The image used */
+  background-image: url("https://images7.alphacoders.com/928/928770.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.option{
+  transition: 1s;
+}
+.option:hover {
+  background-color: rgba(43,187,173, 0.4);
+}
+
+.chosen {
+  background-color: rgba(43,187,173, 0.4);
+  transition: 1s;
+}
+
+.optionSubmenu{
+  color:white;
+  background-color: rgba(0,0,0,0.6);
+}
+.option:active {
+  /*background-color: rgba(43,187,173,0.4);*/
+  transition: ease-in-out;
+}
+
+.leftArrow {
+  visibility:hidden;
+}
+
+.visible {
+  visibility: visible;
+  transition-timing-function: ease-in-out;
+}
+
+.rotate-icon {
+  -webkit-transform:rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+#accordionExample275 a{ color:white;}
+
+#collapseTwo2 a:hover, #collapseOne2 a:hover,  #collapseThree2 a:hover, #collapseFour2 a:hover{
+  color: #2BBBAD;
+  transition: 0.5s;
+  opacity: 1;
+}
+
+#collapseOne2 ul, #collapseTwo2 ul, #collapseThree2 ul, #collapseFour2 ul{
+  padding:0;
+}
+
+.scrollbar-deep-purple::-webkit-scrollbar-track {
+-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+background-color: #F5F5F5;
+border-radius: 10px; }
+
+.scrollbar-deep-purple::-webkit-scrollbar {
+width: 12px;
+background-color: #F5F5F5; }
+
+.scrollbar-deep-purple::-webkit-scrollbar-thumb {
+border-radius: 10px;
+-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+background-color: #512da8; }
+
+.scrollbar-deep-purple {
+scrollbar-color: #512da8 #F5F5F5;
+}
+
+.scrollbar-cyan::-webkit-scrollbar-track {
+-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+background-color: #F5F5F5;
+border-radius: 10px; }
+
+.scrollbar-cyan::-webkit-scrollbar {
+width: 12px;
+background-color: #F5F5F5; }
+
+.scrollbar-cyan::-webkit-scrollbar-thumb {
+border-radius: 10px;
+-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+background-color: #00bcd4; }
+
+.scrollbar-cyan {
+scrollbar-color: #00bcd4 #F5F5F5;
+}
+
+.scrollbar-dusty-grass::-webkit-scrollbar-track {
+-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+background-color: #F5F5F5;
+border-radius: 10px; }
+
+.scrollbar-dusty-grass::-webkit-scrollbar {
+width: 12px;
+background-color: #F5F5F5; }
+
+.scrollbar-dusty-grass::-webkit-scrollbar-thumb {
+border-radius: 10px;
+-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+background-image: -webkit-linear-gradient(330deg, #d4fc79 0%, #96e6a1 100%);
+background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%); }
+
+.scrollbar-ripe-malinka::-webkit-scrollbar-track {
+-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+background-color: #F5F5F5;
+border-radius: 10px; }
+
+.scrollbar-ripe-malinka::-webkit-scrollbar {
+width: 12px;
+background-color: #F5F5F5; }
+
+.scrollbar-ripe-malinka::-webkit-scrollbar-thumb {
+border-radius: 10px;
+-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+background-image: -webkit-linear-gradient(330deg, #f093fb 0%, #f5576c 100%);
+background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%); }
+
+.bordered-deep-purple::-webkit-scrollbar-track {
+-webkit-box-shadow: none;
+border: 1px solid #512da8; }
+
+.bordered-deep-purple::-webkit-scrollbar-thumb {
+-webkit-box-shadow: none; }
+
+.bordered-cyan::-webkit-scrollbar-track {
+-webkit-box-shadow: none;
+border: 1px solid #00bcd4; }
+
+.bordered-cyan::-webkit-scrollbar-thumb {
+-webkit-box-shadow: none; }
+
+.square::-webkit-scrollbar-track {
+border-radius: 0 !important; }
+
+.square::-webkit-scrollbar-thumb {
+border-radius: 0 !important; }
+
+.thin::-webkit-scrollbar {
+width: 6px; }
+
+.example-1 {
+position: relative;
+overflow-y: scroll;
+height: 290px; }

@@ -1,4 +1,4 @@
-/* Only for snippet */
+/*Navigation*/
 .double-nav .breadcrumb-dn {
   color: #fff;
 }
@@ -6,10 +6,16 @@
   color: #fff
 }
 
+body {
+  background-color: #eee;
+}
+
+
+
 #sider {
   height: 100%;
   position: fixed;
-  z-index: 1;
+  z-index: 2000;
   top: 0;
   left: -52.5em;
   background-color: #ccc;
@@ -198,3 +204,41 @@ width: 6px; }
 position: relative;
 overflow-y: scroll;
 height: 290px; }
+
+
+/*Main*/
+.mainPanel {
+  margin-top: 10em;
+}
+
+.salesDiv{
+  position:relative;
+  left:2em;
+  top:-2em;
+  width:80%;
+
+}
+.salesDiv div, .dataDivWrap {
+  padding: 0.3em;
+}
+
+.dataDivWrap {
+  position:relative;
+  top:-2em;
+  width:95%;
+
+}
+
+@media screen and (max-width: 770px) {
+  .salesDivWrap, .avgSales, .dateSet, .dataDivWrap {
+    text-align:center;
+    max-width: 80%;
+    margin-left:auto;
+    margin-right: auto;
+  }
+
+  .dataDivWrap {
+    margin-top: 2em;
+  }
+
+}
